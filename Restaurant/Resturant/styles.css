@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+
+.navbar{
+    background: rgb(48, 42, 68);
+}
+
+.navbar-title{
+    color:rgb(219, 219, 20);
+    font-size:2rem;
+    font-family:Arial, Helvetica, sans-serif;   
+    background-color: rgb(48, 42, 68);
+    padding:10px;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.nav-item{
+    background-color: rgb(244, 237, 237);
+    margin:5px;
+    text-align:center;
+}
+
+video {
+    object-fit: fill;
+    border-radius: 10px;
+  
+
+}
+
+
+.video-container{  
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+
+.card{
+    margin-top:40px;
+    max-width:500px;
+    height: 540px;  
+    border:black;
+    border-radius: 5px;
+    box-shadow:0px 0px 5px rgb(157, 163, 165);
+    transition: transform 0.5s; 
+
+    
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.menu-item{
+    padding-left:60px;
+    margin-bottom:60px;   
+    
+}
+
+.card-img-top{
+    max-height: 225px;
+    max-width: 500px;
+
+}
+
+
+
+
+.card-title{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color:rgb(93, 217, 93);
+}
+
+.card-subtitle{
+    font-size:24px;
+    color:gray;
+}
+.card-text{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color:rgb(205, 57, 57);    margin-bottom: 8px;;
+}
+
+.card-text{
+    font-size:24px;
+}
+
+
+@media (min-width: 576px) {
+   
+}
+
+@media (min-width: 992px) {
+    
+}
